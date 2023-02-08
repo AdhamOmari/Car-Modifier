@@ -119,7 +119,7 @@
 
 
 .car-wrapper {
-  position: absolute;
+  position: fixed;
   width: 40%;
   left: 405px;
   TOP: 483px;
