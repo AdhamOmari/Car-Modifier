@@ -499,11 +499,11 @@
     font-weight: bold;
     color: #f7f5f5;
     position: absolute;
-    top:40%;
+    top:60%;
     left: 30%;
     background-color: rgba(16, 15, 15, 0.9);
-    /* animation: letter-move 10s infinite; */
-    animation: animate   infinite 6s;
+    /* letter-move infinite 3s; */
+        animation: animate  infinite 6s ;
 
     opacity: 0.8;
     padding: 20px;
@@ -511,6 +511,7 @@
 
 
   }
+
 }
 @keyframes animate{
   0%{
@@ -549,9 +550,10 @@
   }
 }
 
-
+/* 
   @keyframes letter-move {
     10% {
+      content: " please Use >   700 Screen ";
       -webkit-transform: translateY(0);
       transform: translateY(0);
       color: #f7f5f5;
@@ -559,8 +561,10 @@
     }
 
     50% {
-      -webkit-transform: translateY(200px);
-      transform: translateY(200px);
+      content: " please Use >   700 Screen ";
+
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
       color: gold;
       text-shadow: transparent 0 1px 0 #aaaaaa, 0 2px 0 #aaaaaa, 0 3px 0 #aaaaaa,
         0 4px 0 #aaaaaa, 0 5px 0 #aaaaaa, 0 6px 0 #aaaaaa, 0 7px 0 #aaaaaa,
@@ -568,13 +572,15 @@
     }
 
     100% {
-      -webkit-transform: translateY(600px);
-      transform: translateY(600px);
+      content: " please Use >   700 Screen ";
+
+      -webkit-transform: translateY(100px);
+      transform: translateY(100px);
       color: black;
       text-shadow: transparent 0 1px 0 #aaaaaa, 0 2px 0 #aaaaaa, 0 3px 0 #aaaaaa,
         0 4px 0 #aaaaaa, 0 5px 0 #aaaaaa, 0 6px 0 #aaaaaa, 0 7px 0 #aaaaaa,
         0 8px 0 #aaaaaa, 0 9px 0 #aaaaaa, 0 10px 100px rgba(253, 249, 249, 0.3);
     }
-  }
+  } */
 
 
