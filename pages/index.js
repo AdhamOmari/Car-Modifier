@@ -64,7 +64,7 @@ export default function Home() {
             <div className='change-car'>
               <Button
                 onClick={() => {
-                  setCar('/car3.png'), setPaint('/paintf.png')
+                  setCar('/car3.png'), setPaint('/fix1.png')
                 }}
                 variant=''
                 style={{ background: 'red' }}
