@@ -479,7 +479,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 799px) {
 
   .flex,
   .car-wrapper {
@@ -493,21 +493,61 @@
   }
 
   body::before {
-    content: "Not Supported > 700px";
+    content: " ";
     font-size: 20px;
     font-weight: bold;
     color: #f7f5f5;
     position: absolute;
-    top: 0%;
-    left: 12%;
+    top:100%;
+    left: 30%;
     background-color: rgba(16, 15, 15, 0.9);
-    animation: letter-move 10s infinite;
+    /* animation: letter-move 10s infinite; */
+    animation: animate   infinite 6s;
+
     opacity: 0.8;
     padding: 20px;
     border-radius: 20px;
 
 
   }
+}
+@keyframes animate{
+  0%{
+    content: 'C'
+  }
+  10%{
+    content: 'Co'
+    
+  }
+  20%{
+    content: 'Com'
+  }
+  30%{
+    content: 'Comi'
+  }
+  40%{
+    content: 'Comin'
+  }
+  50%{
+    content: 'Coming'
+  }
+  60%{
+    content: 'Coming S'
+  }
+  70%{
+    content: 'Coming So'
+  }
+  80%{
+    content: 'Coming Soo'
+  }
+  90%{
+    content: 'Coming Soon'
+  }
+  100%{
+    content: 'Coming Soon!'
+  }
+}
+
 
   @keyframes letter-move {
     10% {
@@ -537,4 +577,3 @@
   }
 
 
-}
