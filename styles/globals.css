@@ -218,6 +218,7 @@
   top: 59px;
   /* left: 485px; */
   left: 529px;
+  height: 43px;
 
 }
 
@@ -323,22 +324,73 @@
 
 }
 
+@media only screen and (min-width: 1445px) {
+  .car-wrapper {
+    position: absolute;
+    width: 40%;
+    left: 688px;
+    top: 747px;
+  }
+
+  .image-car {
+
+    height: 271px;
+    width: 105%;
+  }
+
+  .image-paint,
+  .image-car {
+    background-size: 800px
+  }
+
+  .change-car {
+    left: 90%;
+  }
+
+
+  .button-change {
+
+    left: 45%;
+  }
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .flex {
     width: 100%;
   }
 
   .change-car {
-    left: 1111px;
+    left: 87%;
+    ;
   }
 
   .button-change {
     left: 49;
+
+
   }
 
   .progress {
     width: 334px;
   }
+
+  .car-wrapper {
+    width: 52%;
+    left: 287px;
+    top: 372px;
+  }
+
+  .color-picker {
+    left: 8%;
+  }
+  .sticker-picker {
+
+    top: 47px;}
+    .btn-color{
+          background-size: 387px;
+
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -379,9 +431,8 @@
 
   .car-wrapper {
     width: 67%;
-    left: 28%;
-    top: 98%;
-    ;
+    left: 27%;
+    top: 118%;
   }
 
   .image-car {
