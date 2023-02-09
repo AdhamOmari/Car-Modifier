@@ -375,7 +375,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1599px) {
+@media only screen and (min-width: 999px) and (max-width: 1599px) {
   .flex {
     width: 100%;
     height: 30%;
@@ -424,7 +424,7 @@
 
 }
 
-@media (max-width: 999px) {
+@media (max-width: 998px) {
   .flex {
 
     background-color: rgba(79, 78, 78, 0.7);
@@ -500,11 +500,11 @@
     font-weight: bold;
     color: #f7f5f5;
     position: absolute;
-    top:60%;
-    left: 30%;
+    top: 257%;
+    left: 42%;
     background-color: rgba(16, 15, 15, 0.9);
     /* letter-move infinite 3s; */
-        animation: animate  infinite 6s ;
+        animation: animate  infinite 5s ;
 
     opacity: 0.8;
     padding: 20px;
@@ -588,3 +588,11 @@
 
 
 
+  @keyframes drift{
+    0% {
+      left: -256px;
+    }
+    100% {
+      left: 256px;
+    }
+  }
