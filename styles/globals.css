@@ -501,8 +501,8 @@
     font-weight: bold;
     color: #f7f5f5;
     position: absolute;
-    top:60%;
-    left: 30%;
+    top: 106%;
+    left: 28%;
     background-color: rgba(16, 15, 15, 0.9);
     /* letter-move infinite 3s; */
         animation: animate  infinite 6s ;
