@@ -418,6 +418,7 @@
   .image-car,
   .image-paint {
     background-size: 635px;
+    height: 186px;
   }
 
 }
