@@ -398,7 +398,7 @@
   .car-wrapper {
     width: 52%;
     left: 429px;
-    top: 564px;
+    top: 500px;
   }
 
   .color-picker {
@@ -418,7 +418,7 @@
   .image-car,
   .image-paint {
     background-size: 635px;
-    height: 186px;
+    height: 201px;
   }
 
 }
