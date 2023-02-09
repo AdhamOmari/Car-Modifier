@@ -142,7 +142,7 @@ export default function Home() {
               >
                 <div class="form-group" >
                   <label for="formControlRange"></label>
-                  <input type="range" class="form-control-range  progress " min="0" max="500"  />
+                  <input type="range" class="form-control-range  progress " min="0" max="585"  />
                 </div>
               </form>
 
