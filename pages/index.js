@@ -135,7 +135,7 @@ export default function Home() {
               >
                 <div class="form-group" >
                   <label for="formControlRange"></label>
-                  <input type="range" class="form-control-range  progress " min="47" max="94" />
+                  <input type="range" class="form-control-range  progress " min="47" max="142" />
                 </div>
               </form>
               <form onChange={e => setY(e.target.value)}
